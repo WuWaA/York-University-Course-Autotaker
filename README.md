@@ -21,14 +21,16 @@ First you need chrome and extension called 'User JavaScript and CSS', you could 
 
 Then right click 'User JavaScript and CSS', select 'Option' (or 'Setting' or other similar word).  
 然后右键User JavaScript and CSS，点选项。  
-（待补图）
+![01](/screen shot/01.png) "选项"
 
 Select 'Add', add three scripts just like screen shot below.  
 选择Add，将三个脚本都加进去，具体如图所示。  
 需要注意的是，红框内的内容来源为蓝框处。  
-（待补图）
+![02](/screen shot/02.png) "添加"
+![03](/screen shot/03.png) "示范"
+![04](/screen shot/04.png) "完成"
 
-After change the variables below, just open the Visual Schedule Builder and script will start running.
+After change the variables below, just open the Visual Schedule Builder and script will start running.  
 修改下方的参数为你自己所需的内容后，打开Visual Schedule Builder即可开始自动刷课。
 
 ### 脚本中需要修改的部分
@@ -37,28 +39,28 @@ After change the variables below, just open the Visual Schedule Builder and scri
   - auto wait: `vsb_url`
 
 ### 详解
-- `uname`
-  YorkU Login Name 约克大学登录用户名
-- `upass`
-  YorkU Login Password 约克大学登录密码
-- `course`
-  Course ID 课程代码  
-  例如`E39F02`
-- `course_type`
-  如图所示，第一个选项`Summer 2020`对应数字0，第二个选项`WINTER 2021-GRADUATE STUDENTS OR OSGOODE STUDENTS`对应数字1，以此类推  
-  如果你要选择的是`FALL/WINTER 2020-2021 UNDERGRADUATE STUDENTS`，则将`course_type`设为3  
-  （待补图）
-- `vsb_url`
-  打开Visual Schedule Builder（本说明中有时简称VSB或虚拟选课），添加一门你想选但是已满的课  
-  如图所示，红框内就是URL，将替换`vsb_url`的测试用URL替换为你的红框内的URL即可  
-  （待补图）
+- `uname`  
+    YorkU Login Name 约克大学登录用户名
+- `upass`  
+    YorkU Login Password 约克大学登录密码
+- `course`  
+    Course ID 课程代码  
+    例如`E39F02`
+- `course_type`  
+    如图所示，第一个选项`Summer 2020`对应数字1，第二个选项`WINTER 2021-GRADUATE STUDENTS OR OSGOODE STUDENTS`对应数字2，以此类推  
+    如果你要选择的是`FALL/WINTER 2020-2021 UNDERGRADUATE STUDENTS`，则将`course_type`设为3  
+    ![05](/screen shot/05.png) "数字"
+- `vsb_url`  
+    打开Visual Schedule Builder（本说明中有时简称VSB或虚拟选课），添加一门你想选但是已满的课  
+    如图所示，红框内就是URL，将替换`vsb_url`的测试用URL替换为你的红框内的URL即可  
+    ![06](/screen shot/06.png) "URL"
 
 附 Visual Schedule Builder `https://schedulebuilder.yorku.ca/`
 
 ## Contributor 贡献者
-WuWaA / 王好球 / Pseudo
-以上三个都是我 :stuck_out_tongue_winking_eye:
-WeChat: WuWaA_WeChat
+WuWaA / 王好球 / Pseudo  
+以上三个都是我 :stuck_out_tongue_winking_eye:  
+WeChat: WuWaA_WeChat  
 Twitter: @niceball_wuwaa
 
 ## License 协议

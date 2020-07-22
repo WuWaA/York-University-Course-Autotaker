@@ -21,14 +21,14 @@ First you need chrome and extension called 'User JavaScript and CSS', you could 
 
 Then right click 'User JavaScript and CSS', select 'Option' (or 'Setting' or other similar word).  
 然后右键User JavaScript and CSS，点选项。  
-![01](screen shot/01.png)
+![01](./screen shot/01.png)
 
 Select 'Add', add three scripts just like screen shot below.  
 选择Add，将三个脚本都加进去，具体如图所示。  
 需要注意的是，红框内的内容来源为蓝框处。  
-![02](screen shot/02.png)
-![03](screen shot/03.png)
-![04](screen shot/04.png)
+![02](./screen shot/02.png)
+![03](./screen shot/03.png)
+![04](./screen shot/04.png)
 
 After change the variables below, just open the Visual Schedule Builder and script will start running.  
 修改下方的参数为你自己所需的内容后，打开Visual Schedule Builder即可开始自动刷课。
@@ -49,11 +49,11 @@ After change the variables below, just open the Visual Schedule Builder and scri
 - `course_type`  
     如图所示，第一个选项`Summer 2020`对应数字1，第二个选项`WINTER 2021-GRADUATE STUDENTS OR OSGOODE STUDENTS`对应数字2，以此类推  
     如果你要选择的是`FALL/WINTER 2020-2021 UNDERGRADUATE STUDENTS`，则将`course_type`设为3  
-    ![05](screen shot/05.png)
+    ![05](./screen shot/05.png)
 - `vsb_url`  
     打开Visual Schedule Builder（本说明中有时简称VSB或虚拟选课），添加一门你想选但是已满的课  
     如图所示，红框内就是URL，将替换`vsb_url`的测试用URL替换为你的红框内的URL即可  
-    ![06](screen shot/06.png)
+    ![06](./screen shot/06.png)
 
 附 Visual Schedule Builder `https://schedulebuilder.yorku.ca/`
 

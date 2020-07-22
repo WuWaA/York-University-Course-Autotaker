@@ -8,7 +8,7 @@ This bug can be easily fixed. You could check if enrol result page has any relat
 The only reason I didn't fix it is because I'm about to graduate and no longer use this script.
 
 如果课程状态为“保留位置”而你又不属于被保留范围的话，虚拟选课会显示有位置，进而不断重试注册课程，最后会被系统Ban掉，需要给注册办公室写邮件解封。  
-这个问题其实可以解决，只需要在注册结果页面检测有没有“保留位置”然后跳转其他页面就行了，不过我懒（而且已经快毕业不需要刷课了）所以没写。
+这个问题其实可以解决，只需要在注册结果页面检测有没有“保留位置”然后跳转其他页面就行了，不过我懒所以没写。
 
 ## Implement 实现
 Using JavaScript to simulate mouse click (during write this script, I'm too lazy to find enrol POST/GET request).  
